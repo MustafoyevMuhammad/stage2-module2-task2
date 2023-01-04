@@ -9,7 +9,7 @@ public class Users {
 
     private final List<String> users;
 
-    private Users() {
+    public Users() {
         users = new ArrayList<>();
         users.add("admin");
         users.add("user");
